@@ -1,0 +1,70 @@
+body{
+    background-color: lightblue;
+}
+form{
+    background-color: white;
+    width: 300px;
+    padding: 40px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.username, .password{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+button{
+padding: 10px;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 12px;
+font-size: 20px;
+}
+button:hover{
+    background-color: darkblue;
+}
+button:active{
+    background-color: white;
+    color: blue;
+}
+label{
+    display: inline-block;
+}
+.enter_name{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+input[type="radio"]{
+    margin-right: 10px;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+select{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+input[type="submit"], input[type="reset"]{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+    background-color: darkblue;
+}
